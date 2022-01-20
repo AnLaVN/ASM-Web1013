@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+    <link rel="icon" href="image/logo.ico" type="image/x-icon"/>
+    <link href="css/Styles.css" rel="stylesheet"/> <!-- Khai báo css định dạng cho trang web-->
+    <link href="css/all.css" rel="stylesheet"/> <!-- Khai báo css định dạng cho icon-->
+    <link href="css/homeStyles.css" rel="stylesheet"/> <!-- Khai báo css định dạng cho trang home-->
+</head>
+<body>
+    <audio id="myAudio" src="audio/RR into the night.mp3" autoplay></audio>
+    <marquee>Website</marquee>
+    <header>
+        <a href="index.html"><image id="logo" src="image/FPT_Polytechnic.png" align="left"/></a>
+        <div>Ngôn ngữ là nhất thời, thuật toán là mãi mãi.</div>
+        <input id="ser" type="text" placeholder="Tìm Kiếm...">
+    </header>
+    <nav>
+        <a href="home.html">Trang Chủ</a>
+        <a href="news.html">Tin Tức</a>
+        <a href="apps.html">Ứng Dụng</a>
+        <a href="game.html">Game</a>
+        <div class="animation startHome"></div>
+        <a class="message" href="contact.html"><i class="far fa-envelope"></i></a>
+    </nav>
+    <article>
+        <div class="homeCard" id="MirrorDream">
+            <div class="homeBox">
+                <div class="homeContent">
+                    <h2>01</h2>
+                    <h3>Mirror Dream</h3>
+                    <p>Một tựa game kinh dị nhẹ nhàng được bắt đầu với nhân vật chính là một cậu bé 8 tuổi, 
+                        bố mẹ nghiện ma túy, bị bạo hành, đánh đập, bị lạm dụng bởi người chú. 
+                        Không được hưởng sự yêu thương, không được đến trường, 
+                        cô độc trong căn nhà với chú gấu bông - món quà của mẹ, 
+                        nay đã bị vấy bẩn bởi máu của cậu sau những trận đòn roi, 
+                        quả bóng chày - món quà của bố, phải giấu phía sau bồn cầu. 
+                        Hai thứ đó là 2 thứ duy nhất minh chứng cho sự yêu thương trong quá khứ của bố mẹ và là người bạn duy nhất của cậu.
+                        Cho đến một ngày, cậu gặp một người bạn mới...</p>
+                    <a href="game.html#MirrorDream">Tải về</a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <aside>
+        <div id="title">Hàng đầu</div>
+        <a class="content" href="game.html#MirrorDream">Mirror's Dream</a>
+        <a class="content" href="apps.html#StreamIo">StreamIO</a>
+        <a class="content" href="news.html#KeGayNghien4.0">Kẻ gây nghiện thời 4.0</a>
+        <a class="content" href="apps.html#Scrcpy">Scrcpy</a>
+        <a class="content" href="news.html#AiLaChuInternet">Ai là chủ Internet?</a>
+    </aside>
+    <footer>
+        <a href="https://www.facebook.com/ladangbinhan2003"><img  src="image/logo.ico"/></a>
+        <div id="Demo">ASM Web1013 FPoly</div>
+        <div id="Credit">Make by AnLa❤️</div>
+        <div id="Email">Liên hệ: anldbps21776@fpt.edu.vn</div>
+    </footer>
+    <script>
+        var audio = document.getElementById("myAudio");
+        audio.volume = 0.1;
+    </script>
+</body>
+</html>
