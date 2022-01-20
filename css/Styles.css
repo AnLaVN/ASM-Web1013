@@ -124,7 +124,8 @@ article{
 
 /* Thuộc tính cạnh bên */
 .icon{
-    width: 280px;}
+    width: 280px;
+    object-fit: cover;}
 aside{
     width: 22%;
     max-width: 280px;
