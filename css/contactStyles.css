@@ -1,0 +1,125 @@
+body{
+    height: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: linear-gradient(to right top, #6e3cbc, #6e45bf, #6e4dc3, #6f55c5, #705dc8, #676ed2, #617eda, #5e8de0, #60a6e7, #74bceb, #93d1ed, #b8e4f0);
+    background-repeat: no-repeat;}
+#Contact{
+    width: 924px;
+    height: 140px;
+    font-size: 56px;
+    font-family: 'Times New Roman';
+    text-shadow: 0 30px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right, #d9d7f1, #e5d3ed, #f1cfe5, #faccd9, #ffcbcb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px 100px 100px 10px;
+    position: absolute;
+    top: 210px;}
+
+/* Định dạng icon người dùng */
+.user{
+    font-size: 115px;
+    width: 100px;
+    height: 115px;
+    text-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);}
+.Icon1{
+    position: absolute;
+    left: 574px;
+    top: 588px;}
+.Icon2{
+    position: absolute;
+    left: 70px;
+    top: 812px;}
+.Icon3{
+    position: absolute;
+    left: 574px;
+    top: 980px;}
+
+/* Định dạng icon khung chat */
+.chat1{
+    width: 266px;
+    height: 154px;
+    position: absolute;
+    left: 336px;
+    top: 448px;}
+.chat2{
+    width: 378px;
+    height: 210px;
+    position: absolute;
+    left: 126px;
+    top: 616px;}
+.chat3{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 320px;
+    top: 850px;}
+
+    
+/* Định dạng form */
+input{
+    width: 560px;
+    height: 84px;
+    font-size: 35px;
+    padding-left: 20px;
+    justify-content: center;
+    border-radius: 10px;}
+#name{
+    position: absolute;
+    right: 140px;
+    top: 406px;
+    color: #876445;
+    border: 3px solid #B3A5B1;
+    background-image: linear-gradient(to right, #ffefef, #f2dfe5, #e1d1dd, #cdc4d6, #b5b8cd, #acb8cb, #a4b8c8, #9eb7c4, #a9c1c9, #b6cbce, #c4d5d4, #d3dedc);
+    transition: .5s;}
+#name:hover{
+    transform: scale(1.1);}
+#email{
+    position: absolute;
+    right: 140px;
+    top: 518px;
+    color: #DFD3C3;
+    border: 3px solid #7EEEBA;
+    background-image: linear-gradient(to right top, #69dadb, #4acfdf, #27c4e4, #00b7e7, #00aae8, #009ce3, #008edd, #007fd5, #006cc7, #005ab9, #0c47a9, #193498);
+    transition: .5s;}
+#email:hover{
+    transform: scale(1.1);}
+textarea{
+    width: 544px;
+    height: 350px;
+    font-size: 30px;
+    padding: 20px;
+    border: 3px solid #FAF3E0;
+    border-radius: 10px;
+    position: absolute;
+    right: 140px;
+    top: 630px;
+    transition: .5s;}
+textarea:hover{
+    transform: scale(1.1);}
+button{
+    width: 590px;
+    height: 84px;
+    color: #F2789F;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 3px solid #B8B5FF;
+    border-radius: 10px;
+    position: absolute;
+    right: 140px;
+    top: 1045px;
+    background-image: radial-gradient(circle, #edeef7, #e2e4f9, #d7d9fb, #cdcffd, #c4c4fe, #bbc7ff, #b3caff, #abccff, #afdaff, #bce6ff, #cef1fe, #e4fbff);
+    transition: .5s;}
+button:hover{
+    font-weight: bolder;
+    text-shadow: 0 0 50px #F2789F;
+    color: #FC92E3;
+    cursor: pointer;
+    transform: scale(1.1);}

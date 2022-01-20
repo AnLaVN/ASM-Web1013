@@ -1,0 +1,94 @@
+body{
+    padding-bottom: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(to right top, #161d6f, #004d99, #0079b2, #00a4bd, #58ccc4, #80ddc9, #a4eecf, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8);
+    background-repeat: no-repeat;}
+
+    
+/* Định dạng thẻ tin tức */
+.newsCard{
+    width: 780px;
+    height: 277px;
+    padding: 110px 15px 5px 300px;
+    margin: 0px 28px 28px 28px;
+    border: 2px solid #845EC2;
+    border-radius: 30px;
+    background-color: #B39CD0;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: all .2s linear;}
+.newsCard:hover{
+    z-index: 2;
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #7E6999, #B39CD0);}
+.newsCard>a{
+    width: 120px;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10% 10% 10% 10% / 30% 30% 30% 30%;
+    border: 2px solid #845EC2;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    transition: all 0.5s;}
+.newsCard>a:hover{
+    font-weight: bolder;
+    background: #4B4453;
+    color: #B0A8B9;
+    transform: scale(1.1);}
+.newsImage{
+    width: 280px;
+    height: 392px;
+    float: left;
+    border: 2px solid #845EC2;
+    border-radius: 10% 15% 15% 10% / 8% 40% 40% 8%;
+    shape-outside: circle(50%);
+    shape-margin: 5px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    z-index: 1;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;}
+.newsImage:hover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    transform:scaleY()}
+.newsTitle{
+    width: 756px;
+    height: 52px;
+    padding: 14px;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 15px black ;
+    align-content: center;
+    background-color: #00C9A7;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+    border-radius: 5% 10% 10% 5% / 35% 100% 20% 65% ;
+    position: absolute;
+    left: 294px;
+    top: 14px;}
+.newsText{
+    width: 775px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: justify;
+    color: #FBEAFF;}
+
+.fb-like{
+    padding: 10px;
+}

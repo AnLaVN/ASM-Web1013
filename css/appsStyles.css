@@ -1,0 +1,110 @@
+body{
+    padding-bottom: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(to right top, #52734d, #5d8258, #699163, #75a16e, #81b179, #91bd84, #a0c88f, #b0d49a, #c6dea9, #dae9b9, #edf4cb, #feffde);
+    background-repeat: no-repeat;}
+
+/* Định dạng thẻ ứng dụng */
+.appsCard{
+    width: 540px;
+    height: 253px;
+    margin: 14px;
+    border: 3px solid #4B4453;
+    border-radius: 30px;
+    background-color: #B0A8B9;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: all .2s linear;}
+.appsCard:hover{
+    z-index: 2;
+    transform: scale(1.2);
+    background-image: linear-gradient(to right top, #161d6f, #004d99, #0079b2, #00a4bd, #58ccc4, #80ddc9, #a4eecf, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8);}
+.appsCard span{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;}
+.appsCard span::before{
+    position: absolute;
+    width: 150%;
+    height: 25px;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 0.1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);}
+.appsCard span::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 7px;
+    height: 20px;
+    z-index: -1;}
+span.Free::before{
+    content: 'Free';
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #62baea;}
+span.Free::after{
+    background: #4a98bf;
+    box-shadow: 82px -93px #4a98bf;}
+span.Crack::before{
+    content: 'Cờ-Zắc';
+    font-weight: 500;
+    background: #ED982A;}
+span.Crack::after{
+    background: #C27400;
+    box-shadow: 82px -93px #C27400;}
+.appsImage{
+    width: 196px;
+    height: 140px;
+    margin: 14px 14px 0px 14px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px #00C0A3, inset 0 0 0 2px #845EC2;
+    position: absolute;
+    left: 0px;
+    top: 0px;}
+.appsTitle{
+    width: 196px;
+    height: 77px;
+    margin: 0px 14px 14px 14px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    color: #c7ffd8;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 0px;
+    top: 160px;}
+.appsTitle>.appsName>a{
+    font-size: 24px;
+    color: #845EC2;
+    transition: all 1s linear;}
+.appsTitle>.appsName>a:hover{
+    cursor: pointer;
+    color: #ff6600;}
+.appsText{
+    width: 305px;
+    height: 224px;
+    margin: 14px 14px 14px 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 224px;}
