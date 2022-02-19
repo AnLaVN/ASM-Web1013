@@ -4,8 +4,7 @@ body{
     position: relative;
     background-image: linear-gradient(to right top, #161d6f, #004d99, #0079b2, #00a4bd, #58ccc4, #80ddc9, #a4eecf, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8, #c7ffd8);
     background-repeat: no-repeat;}
-
-    
+nav>a:nth-child(2){color: #00C6D0;}
 /* Định dạng thẻ tin tức */
 .newsCard{
     width: 780px;
@@ -88,7 +87,4 @@ body{
     font-size: 20px;
     text-align: justify;
     color: #FBEAFF;}
-
-.fb-like{
-    padding: 10px;
-}
+.fb-like{padding: 10px;}

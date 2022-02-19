@@ -4,12 +4,12 @@ body{
     position: relative;
     background-image: linear-gradient(to right top, #52734d, #5d8258, #699163, #75a16e, #81b179, #91bd84, #a0c88f, #b0d49a, #c6dea9, #dae9b9, #edf4cb, #feffde);
     background-repeat: no-repeat;}
-
+nav>a:nth-child(3){color: #00C6D0;}
 /* Định dạng thẻ ứng dụng */
 .appsCard{
     width: 540px;
     height: 253px;
-    margin: 14px;
+    margin: 10px;
     border: 3px solid #4B4453;
     border-radius: 30px;
     background-color: #B0A8B9;

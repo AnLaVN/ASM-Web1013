@@ -11,8 +11,8 @@ header{
 #logo{
     height: 100px;
     position: absolute;
-    left: 28px;
-    top: 28px;}
+    left: 10px;
+    top: 10px;}
 header>div{
     width: 390px;
     height: 98px;
@@ -22,7 +22,7 @@ header>div{
     font-size: 42px;
     color: gold;
     text-shadow: 0 0 0.5em;
-    margin: 28px auto;}
+    margin: 10px auto;}
 #ser{
     width: 25%;
     max-width: 360px;
@@ -31,8 +31,8 @@ header>div{
     font-size: 28px;
     padding: 2px 14px;
     position: absolute;
-    right: 28px;
-    top: 70px;
+    right: 10px;
+    top: 50px;
     border-radius: 30px;
     text-align: center;
     border: 3px solid #fa73ef;
@@ -47,7 +47,7 @@ header>div{
 /* Thanh menu */
 nav{
     height: 70px;
-    margin: 28px;
+    margin: 10px;
     position: relative;
     left: 0px;
     top: 100px;
@@ -60,47 +60,47 @@ nav a{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
-    color: #464362;
+    color: #474554;
     line-height: 70px;
     position: relative;
     z-index: 1;
-    display: inline-block;}
+    display: inline-block;
+    transition: all .5s ease-in-out;}
 nav a:hover{
-    color: #FAF7FF;
-    transition: all .1s linear;}
+    color: #FAF7FF;}
 nav .animation{
     position: absolute;
-    height: 100%; /*5px*/
-    top: 0; /*bottom*/
+    height: 5px; /*100%*/
+    bottom: 0; /*top*/
     z-index: 0;
     background: #787586;
     border-radius: 7px;
     transition: all .5s ease 0s;}
-nav a:nth-child(1){width: 266px;}
+nav a:nth-child(1){width: 15%;}
 nav .startHome, a:nth-child(1):hover~.animation{
-    width: 266px;
+    width: 15%;
     left: 0px;}
-nav a:nth-child(2){
-    width: 266px;}
+nav a:nth-child(2){width: 15%;}
 nav .startNews, a:nth-child(2):hover~.animation{
-    width: 266px;
-    left: 266px;}
-nav a:nth-child(3){
-    width: 266px;}
+    width: 15%;
+    left: 15%;}
+nav a:nth-child(3){width: 15%;}
 nav .startApps, a:nth-child(3):hover~.animation{
-    width: 266px;
-    left: 532px;}
-nav a:nth-child(4){
-    width: 266px;}
+    width: 15%;
+    left: 30%;}
+nav a:nth-child(4){width: 15%;}
 nav .startGame, a:nth-child(4):hover~.animation{
-    width: 266px;
-    left: 798px;}
+    width: 15%;
+    left: 45%;}
+nav a:nth-child(5){width: 15%;}
+nav .startFilm, a:nth-child(5):hover~.animation{
+    width: 15%;
+    left: 60%;}
 
 /* Thuộc tính của nút Message */
 .message{
-    width: 70px;
     height: 70px;
-    font-size: 60px;
+    font-size: 70px;
     cursor: pointer;
     color: DodgerBlue;
     position: absolute;
@@ -112,21 +112,22 @@ nav .startGame, a:nth-child(4):hover~.animation{
 
 /* Thuộc tính phần nội dung */
 article{
-    width: 1200px;
+    max-width: 75%; /*1200px*/
     min-height: 785px;
     padding: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    left: 0px;
-    top: 100px;}
+    left: 25px;
+    top: 110px;}
 
 /* Thuộc tính cạnh bên */
 .icon{
     width: 280px;
     object-fit: cover;}
 aside{
+    float: right;
     width: 22%;
     max-width: 280px;
     max-height: 850px;
@@ -146,7 +147,7 @@ aside{
     From{
         -webkit-transform: scale(0.9);}
     To{
-        -webkit-transform: scale(1);}}
+        -webkit-transform: scale(1.1);}}
 #title{
     -webkit-animation: scaling 1s infinite alternate;
     width: 280px;

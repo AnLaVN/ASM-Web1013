@@ -4,6 +4,7 @@ body{
     position: relative;
     background-image: linear-gradient(to right top, #6e3cbc, #6e45bf, #6e4dc3, #6f55c5, #705dc8, #676ed2, #617eda, #5e8de0, #60a6e7, #74bceb, #93d1ed, #b8e4f0);
     background-repeat: no-repeat;}
+nav>a:nth-child(4){color: #00C6D0;}
 /* Định dạng các thẻ trong home */
 .gameCard{
     position: relative;
@@ -27,8 +28,7 @@ body{
 .gameCard .face.face1 .gameContent{
     opacity: 0.2;
     transition: 0.5s;}
-.gameCard:hover .face.face1 .gameContent{
-    opacity: 1;}
+.gameCard:hover .face.face1 .gameContent{opacity: 1;}
 .gameCard .face.face1 .gameContent img{
     max-width: 300px;
     position: relative;
